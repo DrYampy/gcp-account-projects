@@ -1,14 +1,9 @@
-terraform {
-  required_providers {
-    google = {
-      source  = "hashicorp/google"
-      version = "3.5.0"
-    }
-  }
+resource "google_project" "covid_dev" {
+  name = "yampy-covid-dev"
+  project_id = "yampy-covid-dev"
 }
 
-# Initial Manually Created Project
-provider "google" {
-  project = "covid-dev"
-  region  = "us-west1"
+resource "google_project" "covid_prod" {
+  name = "yampy-covid-prod"
+  project_id = "yampy-covid-prod"
 }
