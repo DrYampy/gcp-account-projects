@@ -1,3 +1,3 @@
 terraform init \
-  -backend-config="bucket=yampy-tf-state" \
-  -backend-config="prefix=yampy-covid"
+  -backend-config="bucket=yampy-main-tf-state" \
+  -backend-config="prefix=gcp-account-projects"
