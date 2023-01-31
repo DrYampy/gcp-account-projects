@@ -36,11 +36,10 @@ commands:
             export GOOGLE_APPLICATION_CREDENTIALS=./sa_credentials.json
             terraform validate
       - run:
-          name: Validate
+          name: Plan
           command: |
             export GOOGLE_APPLICATION_CREDENTIALS=./sa_credentials.json
-            terraform plan \
-            --auto-approve
+            terraform plan
       - run:
           name: Apply
           command: |
