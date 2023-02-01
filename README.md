@@ -1,5 +1,5 @@
 # gcp-account-projects
-Repo to control GCP Projects
+A Repo built around an article series on my [Medium](https://medium.com/@syampols) site, called [Data Pipeline on a Shoestring](https://medium.com/@syampols/data-pipeline-on-a-shoestring-part-i-where-to-begin-a085bb397470) 
 
 Requires the following installed prior to use: Terraform, GCloud SDK
 
