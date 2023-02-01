@@ -3,9 +3,9 @@ Repo to control GCP Projects
 
 Requires the following installed prior to use: Terraform, GCloud SDK
 
-As of the last push, deploys the `covid-dev` and `covid-prod` projects to target GCP account.
+As of the last push, deploys the `yampy-covid-dev` and `yampy-covid-prod` projects to target GCP account, requires a remote-backend in GCP project `yampy-main` and an account with owner permissions (i.e. your own) with GCP access.
 
-To initialize remote backend: `scripts/init.sh`
+To initialize via remote backend: `scripts/init.sh`
 
 To validate the template: `scripts/validate.sh`
 
